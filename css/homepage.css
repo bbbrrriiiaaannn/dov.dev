@@ -1,3 +1,8 @@
 .homepageText > h1 {
     @apply text-2xl;
 }
+@media (prefers-color-scheme: dark) {
+    .logo {
+        filter: invert(1);
+    }
+}
