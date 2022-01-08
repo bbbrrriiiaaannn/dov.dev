@@ -41,8 +41,8 @@ export default function Home({
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           i'm dov
         </h1>
-        <div className="flex flex-col md:flex-row">
-          <div className="py-8 rounded-2xl basis-1/2">
+        <div className="pb-0.5 md:pb-8 flex flex-col md:flex-row">
+          <div className="pt-8 rounded-2xl basis-1/2">
             <Image
               src={'/static/images/headshot.png'}
               width={2517}
@@ -50,8 +50,46 @@ export default function Home({
               layout="responsive"
             />
           </div>
-          <div className="py-8 md:px-8 homepageText space-y-2 basis-3/4">
+          <div className="aboutContent pt-8 md:px-8 homepageText space-y-5 basis-3/4">
             <AuthorContent />
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row">
+          <div className="flex-1 py-2 md:py-0">
+            <b>Programming languages</b>
+            <ul>
+              <li>Javascript + Typescript</li>
+              <li>Golang</li>
+              <li>Python</li>
+              <li>Ruby</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div className="flex-1 py-2 md:py-0">
+            <b>Web technologies</b>
+            <ul>
+              <li>React</li>
+              <li>Node JS</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </div>
+          <div className="flex-1 py-2 md:py-0">
+            <b>Databases</b>
+            <ul>
+              <li>Postgresql</li>
+              <li>Mongodb</li>
+              <li>Redis</li>
+              <li>Kafka</li>
+            </ul>
+          </div>
+          <div className="flex-1 py-2 md:py-0">
+            <b>Data science</b>
+            <ul>
+              <li>Jupyter(lab, notebooks)</li>
+              <li>Numpy</li>
+              <li>NASA Panoply</li>
+              <li>Basic R and Matlab</li>
+            </ul>
           </div>
         </div>
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
