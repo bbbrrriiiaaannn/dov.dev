@@ -16,10 +16,10 @@ const projectsData = [
   //   href: '/blog/the-time-machine',
   // },
   {
-    title: 'Bringing subdocuments to YJS',
-    description: `Bringing native subdocument support to the YJS ecosystem.`,
+    title: 'Working on yjs ecosystem',
+    description: `Bringing native subdocument support to parts of the YJS ecosystem.`,
     imgSrc: '/static/images/yjs.svg',
-    href: '/blog/the-time-machine',
+    href: '/blog/figment-collaborative-editing',
   },
 ]
 
