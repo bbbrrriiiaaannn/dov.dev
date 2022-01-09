@@ -48,6 +48,7 @@ export default function Home({
               width={2517}
               height={1669}
               layout="responsive"
+              alt="Dov Alperin Headshot"
             />
           </div>
           <div className="aboutContent pt-8 md:px-8 homepageText space-y-5 basis-3/4">
